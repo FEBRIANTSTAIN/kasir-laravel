@@ -4,13 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class DetailPenjualan extends Model
+class LogStok extends Model
 {
     protected $fillable = [
-        'PenjualanId',
         'ProdukId',
-        'harga',
         'JumlahProduk',
-        'SubTotal'
+        'user_id',
     ];
 }
