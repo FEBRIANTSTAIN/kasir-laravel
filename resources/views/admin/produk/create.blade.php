@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div>
-                    <div class="body">
+                    <div class="body p-3">
                         <form id="form-create-produk" action="{{ route('produk.store') }}" method="POST">
                             @csrf
                             <label for="">Nama Produk</label>
